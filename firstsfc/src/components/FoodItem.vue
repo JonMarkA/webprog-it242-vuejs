@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      name: 'Kailan natutong lumi[pad ang mga ibon?]',
+      name: 'Kailan natutong lumipad ang mga ibon?',
       message: 'Since bird'
     }
   }
