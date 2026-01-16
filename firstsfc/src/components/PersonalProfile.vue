@@ -168,8 +168,7 @@
   </div>
 </template>
 
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js">
         const header = document.getElementById('header');
         const main = document.getElementById('main');
         const articles = document.querySelectorAll('#main article');
