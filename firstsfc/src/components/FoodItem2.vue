@@ -1,5 +1,5 @@
 <template>
-  <div class="pun">
+  <div class="pun2">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
   </div>
@@ -9,15 +9,15 @@
 export default {
   data() {
     return {
-      name: 'Kailan natutong lumipad ang mga ibon?',
-      message: 'Since bird'
+      name: 'Pag inenglish mo yung "tagong sundalo" meron ka na shampoo',
+      message: 'Hide n' soldiers'
     }
   }
 };
 </script>
 
 <style>
- .pun {
+ .pun2 {
     border: dashed black 1px;
     display: inline-block;
     margin: 10px;
