@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       name: 'Pag inenglish mo yung "tagong sundalo" meron ka na shampoo',
-      message: 'Hide n' soldiers'
+      message: 'Hide n soldiers'
     }
   }
 };
