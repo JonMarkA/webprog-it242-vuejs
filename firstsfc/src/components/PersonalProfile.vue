@@ -91,7 +91,7 @@
                     </h2>
                     <div class="intro-grid">
                         <div class="intro-image">
-                            <img src="pictures/IMG_2504.JPG" alt="Profile Image">
+                            <img src="./pictures/IMG_2504.JPG" alt="Profile Image">
                         </div>
                         <div class="intro-content">
                             <p>
