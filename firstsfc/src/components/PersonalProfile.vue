@@ -169,66 +169,7 @@
 </template>
 
     <script>
-        const header = document.getElementById('header');
-        const main = document.getElementById('main');
-        const articles = document.querySelectorAll('#main article');
-
-        document.querySelectorAll('nav a').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').replace('#', '');
-                header.style.display = 'none';
-                main.style.display = 'flex';
-                articles.forEach(article => {
-                    if (article.id === targetId) {
-                        article.style.display = 'block';
-                        article.style.animation = 'none';
-                        article.offsetHeight; 
-                        article.style.animation = null; 
-                    } else {
-                        article.style.display = 'none';
-                    }
-                });
-                document.body.classList.add('is-article-visible');
-            });
-        });
-
-        function closeArticle() {
-            main.style.display = 'none';
-            header.style.display = 'block';
-            document.body.classList.remove('is-article-visible');
-            header.style.animation = 'none';
-            header.offsetHeight;
-            header.style.animation = null;
-        }
-
-        const { createApp } = Vue;
-        createApp({
-            data() {
-                return {
-                    submitted: false,
-                    loading: false,
-                    formData: { name: '', email: '', message: '' }
-                }
-            },
-            methods: {
-                async submitForm() {
-                    this.loading = true;
-                    const formspreeUrl = 'https://formspree.io/f/xgoowzzy';
-                    try {
-                        const response = await fetch(formspreeUrl, {
-                            method: 'POST',
-                            headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
-                            body: JSON.stringify(this.formData)
-                        });
-                        if (response.ok) { this.submitted = true; } 
-                        else { alert('Oops! Problem submitting form.'); }
-                    } catch (error) {
-                        alert('Connection error.');
-                    } finally { this.loading = false; }
-                }
-            }
-        }).mount('#contact-app');
+       
     </script>
 
 <style>
