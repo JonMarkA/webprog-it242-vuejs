@@ -72,9 +72,29 @@
             <img src="./pictures/IMG_2504.JPG" alt="Profile">
           </div>
           <div class="intro-content">
-            <p><strong>Name: </strong>Jonathan Mark Agbulos</p>
-            <p><strong>Education: </strong> Asia Pacific College (BSIT)</p>
-            </div>
+            <p>
+                <strong>Name: </strong>Jonathan Mark Agbulos<br><br>
+                <strong>Hard Skills: </strong>Basic SQL, Canva, UI<br><br>
+                <strong>Interests: </strong>Digital Illustration, Layout Design, Mobile UI Customization, Photography, Games, Data Encoding<br><br>
+                <strong>Education: </strong>
+            </p>
+            <ul>
+                <li>
+                    SHS: Arellano University Jose Abad Santos Campus
+                    <ul>
+                        <li>Strand: TECH-VOC - Information &amp; Communications Technology (ICT)</li>
+                    </ul>
+                </li>
+                <li>
+                    <span style="display: inline-block; margin-right: 5px;">College: Asia Pacific College</span>
+                        <em style="font-size: 0.8rem;">(Current)</em>
+                            <ul>
+                                <li>Course: Bachelor of Science in Information Technology (BSIT)</li>
+                            </ul>
+                </li>
+            </ul>
+            <p><br><strong>Goals in Life: </strong> Wealthy Life</p>
+          </div>
         </div>
       </article>
 
