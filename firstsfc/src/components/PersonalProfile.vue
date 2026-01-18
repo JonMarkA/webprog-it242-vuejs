@@ -84,7 +84,7 @@ const submitForm = async () => {
 </script>
 
 <style>
-import "./components/css/style.css";
+@import "./components/css/style.css";
 
 .fade-enter-active, .fade-leave-active { transition: opacity 0.5s ease; }
 .contact-field { width: 100%; background: rgba(255,255,255,0.05); /* ... */ }
