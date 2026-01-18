@@ -105,14 +105,30 @@
         </h2>
         <table>
           <thead>
-            <tr><th>Project Name</th><th>Link</th></tr>
+            <tr>
+              <th>Project Name</th>
+              <th>Link</th>
+            </tr>
           </thead>
           <tbody>
+           <tr>
+            <td>
+              My Simple &amp; Interactive School ID<br>
+             <em style="font-size: 0.8rem; opacity: 0.7;">1st Project (Created: October 3, 2025)<br><br>
+             NOTE: Best to view this in desktop</em>
+            </td>
+            <td><a href="https://johanoss.github.io/Projects/school-id/index.html" target="_blank" rel="noopener">View Project</a></td>
+           </tr>
             <tr>
-              <td>My Simple & Interactive School ID</td>
-              <td><a href="https://johanoss.github.io/Projects/school-id/index.html" target="_blank">View</a></td>
+             <td>
+              My Profile Website<br>
+               <em style="font-size: 0.8rem; opacity: 0.7;">2nd Project (Created: January 9, 2026)</em>
+             </td>
+             <td>
+              You're here!
+              </td>
             </tr>
-          </tbody>
+         </tbody>
         </table>
       </article>
 
