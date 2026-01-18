@@ -39,7 +39,7 @@
         </h2>
         <div class="intro-grid">
           <div class="intro-image">
-            <img src="@/pictures/IMG_2504.JPG" alt="Profile">
+            <img src="/pictures/IMG_2504.JPG" alt="Profile">
           </div>
           <div class="intro-content">
             <p><strong>Name: </strong>Jonathan Mark Agbulos</p>
