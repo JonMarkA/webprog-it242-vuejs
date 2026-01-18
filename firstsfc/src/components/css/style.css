@@ -312,3 +312,22 @@ table a {
 @media screen and (max-width: 480px) {
     .gallery { grid-template-columns: 1fr; }
 }
+
+.resource-card {
+    background: rgba(255, 255, 255, 0.075);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 3rem;
+    width: 100%;
+    max-width: 40rem;
+}
+
+table a {
+    color: #fff;
+    text-decoration: underline;
+    transition: opacity 0.3s;
+}
+
+table a:hover {
+    opacity: 0.7;
+}

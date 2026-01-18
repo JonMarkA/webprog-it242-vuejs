@@ -28,7 +28,7 @@
         <li><a href="https://instagram.com/dyonasito/"><i class="fa-brands fa-instagram"></i></a></li>
         <li><a href="https://github.com/Johanoss"><i class="fa-brands fa-github"></i></a></li>
         <li class="separator"></li>
-        <li><a href="resources.html"><i class="fa-regular fa-file-lines"></i></a></li>
+        <li><a href="#" @click.prevent="navigateTo('resources')"><i class="fa-regular fa-file-lines"></i></a></li>
       </ul>
 
       <hr style="margin: 2rem 0; border: 0; border-top: 1px solid rgba(255, 255, 255, 0.2);">
@@ -145,7 +145,38 @@
             <div><img src="./pictures/IMG_20251123_145257(1).jpg" alt="Gallery 4"></div>
         </div>
       </article>
-
+      <article v-if="activeTab === 'resources'" style="display: block;">
+        <h2 class="major">
+          Resources
+          <span class="close" @click="navigateTo('home')"><i class="fa-solid fa-xmark"></i></span>
+        </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tool</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Google Gemini</td>
+              <td><a href="https://gemini.google.com/share/d1d494ccf3b7" target="_blank">Conversation Queries</a></td>
+            </tr>
+            <tr>
+              <td>W3Schools</td>
+              <td><a href="https://www.w3schools.com" target="_blank">Web Tutorials</a></td>
+            </tr>
+            <tr>
+              <td>HTML5 UP</td>
+              <td><a href="https://html5up.net/dimension" target="_blank">Dimension Template</a></td>
+            </tr>
+            <tr>
+              <td>My Wallpaper</td>
+              <td><a href="https://wallpapercave.com/w/wp7373530" target="_blank">Wallpaper</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
     </div>
   </div>
 </template>
