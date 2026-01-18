@@ -3,6 +3,7 @@
   
   <div id="wrapper">
     <header id="header" v-if="activeTab === 'home'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
       <div class="logo-container">
         <div class="logo-circle">
           <i class="fa-regular fa-gem"></i>
