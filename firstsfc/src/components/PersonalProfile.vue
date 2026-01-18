@@ -45,8 +45,19 @@
             <p><strong>Name: </strong>Jonathan Mark Agbulos</p>
             </div>
         </div>
-      </article>
-
+        </article>
+        <article v-if="activeTab === 'gallery'" style="display: block;">
+            <h2 class="major">
+            Gallery 
+            <span class="close" @click="activeTab = 'home'"><i class="fa-solid fa-xmark"></i></span></h2>
+        
+        <div class="gallery">
+            <div><img src="./pictures/WIN_20241021_08_43_32_Pro.jpg" alt="Gallery 1"></div>
+            <div><img src="./pictures/IMG_2506.JPG" alt="Gallery 2"></div>
+            <div><img src="./pictures/IMG_2514.JPG" alt="Gallery 3"></div>
+            <div><img src="./pictures/IMG_20251123_145257(1).jpg" alt="Gallery 4"></div>
+        </div>
+        </article>
       </div>
   </div>
 </template>
