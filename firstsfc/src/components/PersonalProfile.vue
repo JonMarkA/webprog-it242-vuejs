@@ -62,7 +62,7 @@
     </header>
 
     <div id="main" v-if="activeTab !== 'home'" style="display: flex;">
-      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
       <article v-if="activeTab === 'intro'" style="display: block;">
         <h2 class="major">
           About Me 
